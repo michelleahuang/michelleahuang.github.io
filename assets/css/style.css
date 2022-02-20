@@ -834,6 +834,10 @@ p {
   padding-left: 13px; }
   .about-content .single-info .info-text p span {
     color: #32333c; }
+  .about-content .single-info .info-text p a {
+    color: #754ef9; }
+  .about-content .single-info .info-text p a:hover {
+    text-decoration: underline; }
 
 .about-skills .skill-item .skill-header {
   position: relative; }
