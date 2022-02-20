@@ -163,7 +163,7 @@ p {
 .section-title .title {
   font-weight: 700;
   font-size: 45px;
-  color: #000;
+  color: #252525;
   padding-bottom: 20px; }
   @media (max-width: 767px) {
     .section-title .title {
@@ -1274,6 +1274,14 @@ p {
     padding-top: 70px;
     padding-bottom: 80px; } }
 
+.contact-content a {
+  color: #8a8fa3;
+}  
+
+.contact-content a:hover {
+  text-decoration: underline;
+}  
+
 .contact-box {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -1354,6 +1362,15 @@ p.form-message.success, p.form-message.error {
 /*===========================
        9.FOOTER css 
 ===========================*/
+
+#footer-parallax {
+  height: 380px;
+}
+
+.footer-container {
+  margin-top: -55px;
+}
+
 .footer-widget {
   background-color: #152136; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1366,8 +1383,8 @@ p.form-message.success, p.form-message.error {
       padding-bottom: 80px; } }
 
 .footer-content p {
-  color: #fff;
-  margin-top: 35px; 
+  color: #152136;
+  /* margin-top: 35px;  */
   font-size: 35px;
   font-weight: 500;}
 .footer-content ul {
