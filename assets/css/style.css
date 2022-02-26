@@ -447,6 +447,12 @@ p {
 /*===========================
     2.HEADER css 
 ===========================*/
+
+#navbar-name {
+  color:#754ef9;
+  font-size: 26px;
+}
+
 .navigation {
   -webkit-box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
   -moz-box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
@@ -468,9 +474,10 @@ p {
   .navigation .navbar {
     padding: 0;
     position: relative; }
-    .navigation .navbar .navbar-brand {
+    .navigation .navbar {
       padding-top: 0;
-      padding-bottom: 5px; }
+      padding-bottom: 5px; 
+    }
     .navigation .navbar .navbar-toggler {
       padding: 2px 6px; }
       .navigation .navbar .navbar-toggler .toggler-icon {
